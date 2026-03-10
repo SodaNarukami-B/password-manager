@@ -19,5 +19,5 @@ def add(message):
 
 if __name__ == '__main__':
     print("Бот запущен и ожидает сообщений...")
-    bot.remove_webhook() # На всякий случай очищаем старые привязки
+    bot.remove_webhook()
     bot.infinity_polling()
